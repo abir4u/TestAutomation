@@ -35,71 +35,35 @@ public class User {
         return currentAge;
     }
 
-    public void setCurrentAge(String currentAge) {
-        this.currentAge = currentAge;
-    }
-
     public String getEmploymentStatus() {
         return employmentStatus;
-    }
-
-    public void setEmploymentStatus(String employmentStatus) {
-        this.employmentStatus = employmentStatus;
     }
 
     public String getAnnualIncome() {
         return annualIncome;
     }
 
-    public void setAnnualIncome(String annualIncome) {
-        this.annualIncome = annualIncome;
-    }
-
     public String getKiwiSaverMemberContribution() {
         return kiwiSaverMemberContribution;
-    }
-
-    public void setKiwiSaverMemberContribution(String kiwiSaverMemberContribution) {
-        this.kiwiSaverMemberContribution = kiwiSaverMemberContribution;
     }
 
     public String getKiwiSaverBalance() {
         return kiwiSaverBalance;
     }
 
-    public void setKiwiSaverBalance(String kiwiSaverBalance) {
-        this.kiwiSaverBalance = kiwiSaverBalance;
-    }
-
     public String getVoluntaryContributions() {
         return voluntaryContributions;
-    }
-
-    public void setVoluntaryContributions(String voluntaryContributions) {
-        this.voluntaryContributions = voluntaryContributions;
     }
 
     public String getFrequency() {
         return frequency;
     }
 
-    public void setFrequency(String frequency) {
-        this.frequency = frequency;
-    }
-
     public String getRiskProfile() {
         return riskProfile;
     }
 
-    public void setRiskProfile(String riskProfile) {
-        this.riskProfile = riskProfile;
-    }
-
     public String getSavingsGoal() {
         return savingsGoal;
-    }
-
-    public void setSavingsGoal(String savingsGoal) {
-        this.savingsGoal = savingsGoal;
     }
 }

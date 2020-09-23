@@ -1,15 +1,7 @@
 package Shared;
 
 public class Constants {
-    public static final String password = "MyTestPassword11";
-    public static final String bankNameANZ = "ANZ (NZ)";
-    public static final String bankAccountTypeEveryday = "Everyday (day-to-day)";
-    public static final String bankAccountName = "A Tester";
-    public static final String bankAccountNumber = "654321098";
-
-
     /* Retirement Calculator field Info messages */
-
     public static final String currentAge = "This calculator has an age limit of 18 to 64 years old.";
     public static final String employmentStatus = "If you are earning a salary or wage, select ‘Employed’. Your employer contributions will be automatically calculated at a rate of 3% of your before-tax salary or wages. You can also select ‘Self-employed’ or ‘Not employed’ and then enter below (in the Voluntary contributions field), the amount and frequency of any contributions that you wish to make.";
     public static final String annualIncome = "Only include your total annual income that is paid to you by your employer(s). Other income sources such as rental income or dividends should not be included.";
@@ -23,6 +15,8 @@ public class Constants {
             "High risk investments usually contain mostly growth assets. Investments with more exposure to growth assets have the potential for higher long-term returns, but they are more likely to go up and down in the short term and will experience periods of negative returns.\n" +
             "You can also use our KiwiSaver Risk Profiler to help determine your tolerence to risk.";
     public static final String savingsGoal = "Enter the amount you would like to have saved when you reach your intended retirement age. If you aren’t sure what this amount is, you can leave it blank or use the Sorted Retirement Planner";
+
+    /* Text on Elements */
     public static final String revealResultsButton = "View your KiwiSaver retirement projections";
     public static final String resultHeaderMessage = "At age 65, your KiwiSaver balance is estimated to be:";
 }
