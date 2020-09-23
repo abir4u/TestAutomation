@@ -4,28 +4,24 @@
 
 # Some Info about the Test
 
-### Breaking down the User Story
+### The User Stories
 
-The user story is as follows:
-
-**As a Xero User,**
-**In order to manage my business successfully,**
-**I want to be able to add an “ANZ (NZ)” bank account inside any Xero Organisation.**
-
-The statement has three points that need the tester's attention here:
-1. A Xero User
-2. Add an "ANZ (NZ)" bank account
-3. Inside Any Xero Organisation
-
-So these three functionalities have to be catered to via the test cases, and that is exactly what Scenario 1 to Scenario 10 does in the feature file of this repository (/src/main/resources/features/xero.feature).
+The two user stories are put in two different feature files with their corresponding scenarios:
+1. Test User Story 1 - westpac-user-story-1.feature
+2. Test User Story 2 - westpac-user-story-2.feature
 
 ### Breaking down the question
 
 The question is as follows:
 
-**Your challenge is to automate this User Story using Selenium Webdriver.
-You are free to choose any programming language and/or framework of your choice. You can use any form and/or method of describing/specifying your test cases. You can also choose to execute your test cases on either Google Chrome or Mozilla Firefox.
-We only require that you provide us with clear instructions to execute your automated tests and that your solution lives in a public GitHub profile that is easily accessible to anybody evaluating your solution.**
+You are an Automation Tester on an agile project. You have following stories in backlog. Please write automation script(s) for following user stories.
+- You may use any language, tool/framework to automate the user stories
+- Your solution should reflect your level of expertise
+- URL to be used for this exercise: http://www.westpac.co.nz/
+- Navigation Flow KiwiSaver > KiwiSaver Calculators > Click here to get started button under (Westpac KiwiSaver Scheme Retirement Calculator)
+- Please upload/share your solution to an online source control repository (e.g. GitHub, CodePlex)
+
+**Note: The question specifies a particular navigation flow. Although there are different ways to navigate to the Westpac KiwiSaver Scheme Retirement Calculator (all of which are eligible for automation), the scenarios talk about the navigation mentioned in the question only.**
 
 As specified in the above question, below is the technology stack used in this repository:
 1. Webdriver - Selenium
@@ -34,8 +30,8 @@ As specified in the above question, below is the technology stack used in this r
 4. Test Case Syntax - Gherkins
 5. Browser - Chrome
 6. Build tool - Maven
-7. GitHub URL (Public) - https://github.com/abir4u/AutomationTest
-8. Instruction for execution - Command provided at the top of this README.md file
+7. GitHub URL (Public) - https://github.com/abir4u/TestAutomation
+8. Instruction for execution - Command provided on the first line of this README.md file
 
 ## Architecture of the Automation Framework Created:
 
