@@ -30,8 +30,9 @@ As specified in the above question, below is the technology stack used in this r
 4. Test Case Syntax - Gherkins
 5. Browser - Chrome
 6. Build tool - Maven
-7. GitHub URL (Public) - https://github.com/abir4u/TestAutomation
-8. Instruction for execution - Command provided on the first line of this README.md file
+7. Reporting - Cucumber
+8. GitHub URL (Public) - https://github.com/abir4u/TestAutomation
+9. Instruction for execution - Command provided on the first line of this README.md file
 
 ## Architecture of the Automation Framework Created:
 
@@ -42,7 +43,7 @@ Below are a few things that have been implemented, and a few things that could h
 
 1. Page Object Model - This design pattern has been used along with Page Factory to make the code cleaner and easy to understand **for the developers**. It also separates the code from the test cases, thus making the code more reusable.
 2. Behaviour Driven Development - This methodology has been used to make the test cases easy to understand **for the business stakeholders**.
-3. Cucumber Reporting - This form of reporting has been used as it takes the least amount of time to implement, and yet provides with a presentable HTML report with adequate colour and focus to charts and tables, when it comes to representing the data.
+3. Cucumber Reporting - This form of reporting has been used as it takes the least amount of time to implement, and yet provides with a presentable HTML report with adequate colour and focus to charts and tables, when it comes to representing the data (The report can be found in path "target/cucumber-html-reports/⁨overview-features.html" after execution when the 'target' folder is generated⁩).
 4. **Reusable Wrapper Framework** - A reusable wrapper framework has been used to showcase the subtleness of my work and level of detail that I go to even in short tasks like this one.
 
 #### Things that could had been implemented if I had more time:
