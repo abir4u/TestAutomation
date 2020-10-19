@@ -4,26 +4,12 @@
 
 # Some Info about the Test
 
-### The User Stories
-
-The two user stories are put in two different feature files with their corresponding scenarios:
-1. Test User Story 1 - westpac-user-story-1.feature
-2. Test User Story 2 - westpac-user-story-2.feature
 
 ### Breaking down the question
 
 The question is as follows:
 
-You are an Automation Tester on an agile project. You have following stories in backlog. Please write automation script(s) for following user stories.
-- You may use any language, tool/framework to automate the user stories
-- Your solution should reflect your level of expertise
-- URL to be used for this exercise: http://www.westpac.co.nz/
-- Navigation Flow KiwiSaver > KiwiSaver Calculators > Click here to get started button under (Westpac KiwiSaver Scheme Retirement Calculator)
-- Please upload/share your solution to an online source control repository (e.g. GitHub, CodePlex)
-
-**Note: The question specifies a particular navigation flow. Although there are different ways to navigate to the Westpac KiwiSaver Scheme Retirement Calculator (all of which are eligible for automation), the scenarios talk about the navigation mentioned in the question only.**
-
-As specified in the above question, below is the technology stack used in this repository:
+Below is the technology stack used in this repository:
 1. Webdriver - Selenium
 2. Programming Language - Java
 3. Framework - Selenium
@@ -31,7 +17,6 @@ As specified in the above question, below is the technology stack used in this r
 5. Browser - Chrome
 6. Build tool - Maven
 7. Reporting - Cucumber
-8. GitHub URL (Public) - https://github.com/abir4u/TestAutomation
 9. Instruction for execution - Command provided on the first line of this README.md file
 
 ## Architecture of the Automation Framework Created:
@@ -45,12 +30,6 @@ Below are a few things that have been implemented, and a few things that could h
 2. Behaviour Driven Development - This methodology has been used to make the test cases easy to understand **for the business stakeholders**.
 3. Cucumber Reporting - This form of reporting has been used as it takes the least amount of time to implement, and yet provides with a presentable HTML report with adequate colour and focus to charts and tables, when it comes to representing the data (The report can be found in path "target/cucumber-html-reports/⁨overview-features.html" after execution when the 'target' folder is generated⁩).
 4. **Reusable Wrapper Framework** - A reusable wrapper framework has been used to showcase the subtleness of my work and level of detail that I go to even in short tasks like this one.
-
-#### Things that could had been implemented if I had more time:
-
-1. CI/CD - Although I have created a prototype for this on my machine, I do not have a domain to host my Jenkins implementation and showcase it to you.
-2. Parallel Execution - This could had been implemented with Cucumber 4 or TestNG, but I would prefer Cucumber 4 as it is easy to implement and faster.
-3. Custom Reporting Tool - Tools like Perfecto, Dashing.io, Jenkins etc. provide lucrative reporting facilities, but I prefer developing my own (with React.js), as it can be made as per business requirement, making it crisp and easy to understand, yet effective.
 
 Hope this was helpful to understand the repository. However, in case of any doubts feel free to reach out to me any time on my email abirpal16112@gmail.com or call me on 02102963036.
 
